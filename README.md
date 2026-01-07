@@ -9,7 +9,15 @@ The application is designed with a **Big 4–style analyst mindset**, focusing o
 ---
 ### 🎬 Sample Video: [Video Link](https://drive.google.com/file/d/15hElu_w44BJxNWkQYcR1Knng9f5rCGAw/view?usp=sharing)
 ---
+### 🎬 Sample Dataset : [Clean CSV File](https://drive.google.com/file/d/1RyzFDjb4iZ1saqWCaz5P6GvzlvqRiiT_/view?usp=sharing)
+---
+## 📸 Screenshots
 
+| Dataset and Columns | Bar Graph | 
+|----------------|--------------|
+| ![Dataset and Column](screenshots/chat.png) | ![Bar Graph](screenshots/emoji.png) |
+
+---
 ## 🚀 Key Features
 
 - 📁 **CSV Upload & Analysis**
