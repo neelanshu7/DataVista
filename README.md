@@ -7,7 +7,7 @@ The application is designed with a **Big 4–style analyst mindset**, focusing o
 
 ### 🔗 Live Website: [DataVista](https://data-vista-six.vercel.app/)
 ---
-### 🎬 Sample Video: [Video Link](https://drive.google.com/file/d/15EuN5U6Y3mM4VSUuQcW5GRfPPVviSBvG/view?usp=sharing)
+### 🎬 Sample Video: [Video Link](https://drive.google.com/file/d/15hElu_w44BJxNWkQYcR1Knng9f5rCGAw/view?usp=sharing)
 ---
 
 ## 🚀 Key Features
