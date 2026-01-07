@@ -15,7 +15,7 @@ The application is designed with a **Big 4–style analyst mindset**, focusing o
 
 | Dataset and Columns | Bar Graph | 
 |----------------|--------------|
-| ![Dataset and Column](screenshots/Bar Fields.png) | ![Bar Graph](screenshots/Bar Graphs.png) |
+| ![Dataset and Column](screenshot/BarFields.png) | ![Bar Graph](screenshot/BarGraphs.png) |
 
 ---
 ## 🚀 Key Features
