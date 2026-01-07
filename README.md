@@ -13,11 +13,11 @@ The application is designed with a **Big 4–style analyst mindset**, focusing o
 ---
 ## 📸 Screenshots
 
-| Dataset and Columns | Bar Graph | 
+| Dataset and Columns | Bar Chart | 
 |----------------|--------------|
 | ![Dataset and Column](screenshot/BarFields.png) | ![Bar Chart](screenshot/BarGraph.png) |
 
-| Dataset and Columns | Line Graph | 
+| Dataset and Columns | Line Chart | 
 |----------------|--------------|
 | ![Dataset and Column](screenshot/LineFields.png) | ![Bar Chart](screenshot/LineGraph.png) |
 
