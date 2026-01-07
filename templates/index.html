@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSV Business Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="/static/chart.js"></script>
+</head>
+
+<body class="light">
+
+<div class="container">
+
+    <header>
+        <h1>Visual Business Analytics Platform</h1>
+        <button id="themeToggle">🌙</button>
+    </header>
+
+    <input type="file" id="file">
+    <button onclick="uploadFile()">Analyze</button>
+
+    <div id="chartOptions" class="row hidden">
+        <button onclick="showChartOptions('bar')">Bar Chart</button>
+        <button onclick="showChartOptions('line')">Line Chart</button>
+    </div>
+
+    <div id="selectors" class="hidden">
+
+        <h3>Select X (Category)</h3>
+        <div id="xButtons" class="pill-group"></div>
+
+        <h3>Select Y (Metric)</h3>
+        <div id="yButtons" class="pill-group"></div>
+
+        <h3>Aggregation</h3>
+        <div class="pill-group">
+            <button class="pill active" onclick="setAgg('SUM')">SUM</button>
+            <button class="pill" onclick="setAgg('AVG')">AVG</button>
+            <button class="pill" onclick="setAgg('COUNT')">COUNT</button>
+        </div>
+
+        <button class="generate" onclick="generateChart()">Generate Chart</button>
+    </div>
+
+    <canvas id="chartCanvas"></canvas>
+
+</div>
+
+</body>
+</html>

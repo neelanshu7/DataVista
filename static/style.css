@@ -1,0 +1,88 @@
+:root {
+    --bg: #f4f6f8;
+    --text: #1f2937;
+    --card: #ffffff;
+    --primary: #2563eb;
+}
+
+body.dark {
+    --bg: #0f172a;
+    --text: #e5e7eb;
+    --card: #1e293b;
+    --primary: #38bdf8;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: Inter, Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: var(--card);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.pill-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.pill {
+    padding: 8px 16px;
+    border-radius: 999px;
+    border: 1px solid var(--primary);
+    background: transparent;
+    color: var(--text);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.pill:hover {
+    background: var(--primary);
+    color: white;
+}
+
+.pill.active {
+    background: var(--primary);
+    color: white;
+}
+
+.generate {
+    margin-top: 10px;
+    font-size: 15px;
+}
